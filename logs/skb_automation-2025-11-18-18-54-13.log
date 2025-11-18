@@ -1,0 +1,6 @@
+2025-11-18 18:54:15 INFO  TC_Registration_001:17 - ********** Starting TC_Registration_001 **********
+2025-11-18 18:54:15 INFO  TC_Registration_001:23 - Clicked on My Account link
+2025-11-18 18:54:16 INFO  TC_Registration_001:25 - Clicked on Register link
+2025-11-18 18:54:16 INFO  TC_Registration_001:37 - Entered all the details in registration form
+2025-11-18 18:54:17 INFO  TC_Registration_001:39 - Clicked on Continue button
+2025-11-18 18:54:17 INFO  TC_Registration_001:42 - Fetched the confirmation message after registration
