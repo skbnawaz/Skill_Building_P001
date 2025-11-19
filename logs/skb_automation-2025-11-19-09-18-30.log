@@ -1,0 +1,10 @@
+2025-11-19 09:18:32 INFO  TC_Registration_001:17 - ********** Starting TC_Registration_001 **********
+2025-11-19 09:18:33 INFO  TC_Registration_001:23 - Clicked on My Account link
+2025-11-19 09:18:33 INFO  TC_Registration_001:25 - Clicked on Register link
+2025-11-19 09:18:34 INFO  TC_Registration_001:37 - Entered all the details in registration form
+2025-11-19 09:18:35 INFO  TC_Registration_001:39 - Clicked on Continue button
+2025-11-19 09:18:35 INFO  TC_Registration_001:42 - Fetched the confirmation message after registration
+2025-11-19 09:18:35 ERROR TC_Registration_001:47 - Account registration failed
+2025-11-19 09:18:35 ERROR TC_Registration_001:52 - Test case TC_Registration_001 failed due to an exception: expected [true] but found [false]
+2025-11-19 09:18:35 DEBUG TC_Registration_001:53 - Debug log...
+2025-11-19 09:18:35 INFO  TC_Registration_001:55 - ********** Finished TC_Registration_001 **********

@@ -40,13 +40,18 @@ public class TC_Registration_001 extends BaseClass {
         
         String confmsg = regpage.getConformationMsg();
         logger.info("Fetched the confirmation message after registration");
-        System.out.println("Confirmation message: " + confmsg);
-        Assert.assertEquals(confmsg, "Your Account Has ");
+        if(confmsg.equals("Your Account Has Been Created")) {
+			logger.info("Account registration successful");
+			Assert.assertTrue(true);
+        } else {
+        	logger.error("Test case TC_Registration_001 failed due to an exception: msg conformation not matched");
+        	Assert.assertTrue(false);
+        }
 
     	}catch(AssertionError e) {
-    		logger.error("Test case TC_Registration_001 failed due to an exception: " + e.getMessage());
+    		
     		logger.debug("Debug log...");
-			Assert.fail("Test case TC_Registration_001 failed due to an exception: " + e.getMessage());
+    		Assert.fail();
 		}
     	logger.info("********** Finished TC_Registration_001 **********");
     	}
