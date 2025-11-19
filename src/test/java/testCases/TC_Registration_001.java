@@ -40,7 +40,7 @@ public class TC_Registration_001 extends BaseClass {
         
         String confmsg = regpage.getConformationMsg();
         logger.info("Fetched the confirmation message after registration");
-        if(confmsg.equals("Your Account Has Been Created")) {
+        if(confmsg.equals("Your Account Has Been Created!")) {
 			logger.info("Account registration successful");
 			Assert.assertTrue(true);
         } else {
