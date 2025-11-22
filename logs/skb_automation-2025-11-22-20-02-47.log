@@ -1,0 +1,57 @@
+2025-11-22 20:02:47 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Nawaz\eclipse-workspace\skill_building_P001\master.xml"
+2025-11-22 20:02:48 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Nawaz\eclipse-workspace\skill_building_P001\master.xml
+
+2025-11-22 20:02:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-11-22 20:02:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-11-22 20:02:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-11-22 20:02:51 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-11-22 20:02:52 INFO  TC_Login_DDT_002001:24 - ********** Starting TC_Login_DDT_002001 **********
+2025-11-22 20:02:53 INFO  TC_Login_DDT_002001:30 - Navigated to Login page
+2025-11-22 20:02:53 INFO  TC_Login_DDT_002001:36 - Provided login details and clicked on Login button
+2025-11-22 20:02:53 INFO  TC_Login_DDT_002001:38 - Verifying Login test
+2025-11-22 20:03:03 INFO  TC_Login_DDT_002001:44 - In Valid block
+2025-11-22 20:03:03 ERROR TC_Login_DDT_002001:50 - Login test failed
+2025-11-22 20:03:03 DEBUG TC_Login_DDT_002001:68 - Debug log...Test case failed execution
+2025-11-22 20:03:03 INFO  TC_Login_DDT_002001:24 - ********** Starting TC_Login_DDT_002001 **********
+2025-11-22 20:03:03 INFO  TC_Login_DDT_002001:30 - Navigated to Login page
+2025-11-22 20:03:05 INFO  TC_Login_DDT_002001:36 - Provided login details and clicked on Login button
+2025-11-22 20:03:05 INFO  TC_Login_DDT_002001:38 - Verifying Login test
+2025-11-22 20:03:05 INFO  TC_Login_DDT_002001:44 - In Valid block
+2025-11-22 20:03:05 INFO  TC_Login_DDT_002001:46 - Login test passed
+2025-11-22 20:03:05 INFO  TC_Login_DDT_002001:71 - ********** Finished TC_Login_DDT_002001 **********
+2025-11-22 20:03:05 INFO  TC_Login_DDT_002001:24 - ********** Starting TC_Login_DDT_002001 **********
+2025-11-22 20:03:06 INFO  TC_Login_DDT_002001:30 - Navigated to Login page
+2025-11-22 20:03:08 INFO  TC_Login_DDT_002001:36 - Provided login details and clicked on Login button
+2025-11-22 20:03:08 INFO  TC_Login_DDT_002001:38 - Verifying Login test
+2025-11-22 20:03:08 INFO  TC_Login_DDT_002001:44 - In Valid block
+2025-11-22 20:03:08 INFO  TC_Login_DDT_002001:46 - Login test passed
+2025-11-22 20:03:09 INFO  TC_Login_DDT_002001:71 - ********** Finished TC_Login_DDT_002001 **********
+2025-11-22 20:03:09 INFO  TC_Login_DDT_002001:24 - ********** Starting TC_Login_DDT_002001 **********
+2025-11-22 20:03:09 INFO  TC_Login_DDT_002001:30 - Navigated to Login page
+2025-11-22 20:03:11 INFO  TC_Login_DDT_002001:36 - Provided login details and clicked on Login button
+2025-11-22 20:03:11 INFO  TC_Login_DDT_002001:38 - Verifying Login test
+2025-11-22 20:03:11 INFO  TC_Login_DDT_002001:44 - In Valid block
+2025-11-22 20:03:11 INFO  TC_Login_DDT_002001:46 - Login test passed
+2025-11-22 20:03:12 INFO  TC_Login_DDT_002001:71 - ********** Finished TC_Login_DDT_002001 **********
+2025-11-22 20:03:12 INFO  TC_Login_DDT_002001:24 - ********** Starting TC_Login_DDT_002001 **********
+2025-11-22 20:03:12 INFO  TC_Login_DDT_002001:30 - Navigated to Login page
+2025-11-22 20:03:14 INFO  TC_Login_DDT_002001:36 - Provided login details and clicked on Login button
+2025-11-22 20:03:14 INFO  TC_Login_DDT_002001:38 - Verifying Login test
+2025-11-22 20:03:14 INFO  TC_Login_DDT_002001:44 - In Valid block
+2025-11-22 20:03:14 INFO  TC_Login_DDT_002001:46 - Login test passed
+2025-11-22 20:03:15 INFO  TC_Login_DDT_002001:71 - ********** Finished TC_Login_DDT_002001 **********
+2025-11-22 20:03:15 INFO  TC_Login_DDT_002001:24 - ********** Starting TC_Login_DDT_002001 **********
+2025-11-22 20:03:16 INFO  TC_Login_DDT_002001:30 - Navigated to Login page
+2025-11-22 20:03:17 INFO  TC_Login_DDT_002001:36 - Provided login details and clicked on Login button
+2025-11-22 20:03:17 INFO  TC_Login_DDT_002001:38 - Verifying Login test
+2025-11-22 20:03:27 INFO  TC_Login_DDT_002001:44 - In Valid block
+2025-11-22 20:03:27 ERROR TC_Login_DDT_002001:50 - Login test failed
+2025-11-22 20:03:27 DEBUG TC_Login_DDT_002001:68 - Debug log...Test case failed execution
+2025-11-22 20:03:27 INFO  TC_Login_DDT_002001:24 - ********** Starting TC_Login_DDT_002001 **********
+2025-11-22 20:03:28 INFO  TC_Login_DDT_002001:30 - Navigated to Login page
+2025-11-22 20:03:29 INFO  TC_Login_DDT_002001:36 - Provided login details and clicked on Login button
+2025-11-22 20:03:29 INFO  TC_Login_DDT_002001:38 - Verifying Login test
+2025-11-22 20:03:30 INFO  TC_Login_DDT_002001:44 - In Valid block
+2025-11-22 20:03:30 INFO  TC_Login_DDT_002001:46 - Login test passed
+2025-11-22 20:03:30 INFO  TC_Login_DDT_002001:71 - ********** Finished TC_Login_DDT_002001 **********

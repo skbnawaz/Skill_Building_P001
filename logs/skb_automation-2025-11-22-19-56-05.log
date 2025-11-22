@@ -1,0 +1,22 @@
+2025-11-22 19:56:05 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Nawaz\eclipse-workspace\skill_building_P001\test-output\testng-failed.xml"
+2025-11-22 19:56:06 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Nawaz\eclipse-workspace\skill_building_P001\test-output\testng-failed.xml
+
+2025-11-22 19:56:09 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-11-22 19:56:09 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-11-22 19:56:09 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-11-22 19:56:10 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-11-22 19:56:10 INFO  TC_Login_DDT_002001:24 - ********** Starting TC_Login_DDT_002001 **********
+2025-11-22 19:56:11 INFO  TC_Login_DDT_002001:30 - Navigated to Login page
+2025-11-22 19:56:12 INFO  TC_Login_DDT_002001:36 - Provided login details and clicked on Login button
+2025-11-22 19:56:12 INFO  TC_Login_DDT_002001:38 - Verifying Login test
+2025-11-22 19:56:23 INFO  TC_Login_DDT_002001:44 - In Valid block
+2025-11-22 19:56:23 ERROR TC_Login_DDT_002001:50 - Login test failed
+2025-11-22 19:56:23 DEBUG TC_Login_DDT_002001:67 - Debug log...Test case failed execution
+2025-11-22 19:56:23 INFO  TC_Login_DDT_002001:24 - ********** Starting TC_Login_DDT_002001 **********
+2025-11-22 19:56:23 INFO  TC_Login_DDT_002001:30 - Navigated to Login page
+2025-11-22 19:56:24 INFO  TC_Login_DDT_002001:36 - Provided login details and clicked on Login button
+2025-11-22 19:56:24 INFO  TC_Login_DDT_002001:38 - Verifying Login test
+2025-11-22 19:56:25 INFO  TC_Login_DDT_002001:56 - In Invalid block
+2025-11-22 19:56:25 ERROR TC_Login_DDT_002001:58 - Login test failed
+2025-11-22 19:56:25 DEBUG TC_Login_DDT_002001:67 - Debug log...Test case failed execution

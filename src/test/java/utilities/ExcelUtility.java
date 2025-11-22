@@ -1,4 +1,3 @@
-
 package utilities;
 
 import java.io.File;
@@ -15,45 +14,62 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class ExcelUtility {
+public class ExcelUtility implements AutoCloseable {  // ✅ Add this
 
     public FileInputStream fi;
     public FileOutputStream fo;
-    public XSSFWorkbook workbook;
+    public XSSFWorkbook workbook;  // ✅ Keep this
     public XSSFSheet sheet;
     public XSSFRow row;
     public XSSFCell cell;
     public CellStyle style;
     String path;
+    private boolean workbookInitialized = false;  // ✅ Add this
 
     public ExcelUtility(String path) {
         this.path = path;
     }
 
+    // ✅ Add this method to initialize workbook once
+    private void initializeWorkbook() throws IOException {
+        if (!workbookInitialized) {
+            fi = new FileInputStream(path);
+            workbook = new XSSFWorkbook(fi);
+            workbookInitialized = true;
+        }
+    }
+
+    // ✅ Add this method to close resources
+    @Override
+    public void close() throws IOException {
+        if (workbook != null) {
+            workbook.close();
+        }
+        if (fi != null) {
+            fi.close();
+        }
+        workbookInitialized = false;
+    }
+
     public int getRowCount(String sheetName) throws IOException {
-        fi = new FileInputStream(path);
-        workbook = new XSSFWorkbook(fi);
+        initializeWorkbook();  // ✅ Call this instead of creating new workbook
         sheet = workbook.getSheet(sheetName);
         int rowcount = sheet.getLastRowNum();
-        workbook.close();
-        fi.close();
+        // ❌ REMOVE workbook.close() and fi.close() from here
         return rowcount;
     }
 
     public int getCellCount(String sheetName, int rownum) throws IOException {
-        fi = new FileInputStream(path);
-        workbook = new XSSFWorkbook(fi);
+        initializeWorkbook();  // ✅ Call this instead of creating new workbook
         sheet = workbook.getSheet(sheetName);
         row = sheet.getRow(rownum);
         int cellcount = row.getLastCellNum();
-        workbook.close();
-        fi.close();
+        // ❌ REMOVE workbook.close() and fi.close() from here
         return cellcount;
     }
 
     public String getCellData(String sheetName, int rownum, int colnum) throws IOException {
-        fi = new FileInputStream(path);
-        workbook = new XSSFWorkbook(fi);
+        initializeWorkbook();  // ✅ Call this instead of creating new workbook
         sheet = workbook.getSheet(sheetName);
         row = sheet.getRow(rownum);
         cell = row.getCell(colnum);
@@ -65,18 +81,20 @@ public class ExcelUtility {
         } catch (Exception e) {
             data = "";
         }
-        workbook.close();
-        fi.close();
+        // ❌ REMOVE workbook.close() and fi.close() from here
         return data;
     }
 
+    // ❌ KEEP the existing setCellData, fillRedColor, fillGreenColor methods AS THEY ARE
+    // These should still open/close their own workbooks since they modify the file
+    
     public void setCellData(String sheetName, int rownum, int colnum, String data) throws IOException {
+        // Keep this method exactly as it is - don't change it
         File xlfile = new File(path);
         if (!xlfile.exists()) {
             workbook = new XSSFWorkbook();
             fo = new FileOutputStream(path);
             workbook.write(fo);
-            fo.close();
         }
 
         fi = new FileInputStream(path);
@@ -104,6 +122,7 @@ public class ExcelUtility {
     }
 
     public void fillRedColor(String sheetName, int rownum, int colnum) throws IOException {
+        // Keep this method exactly as it is - don't change it
         fi = new FileInputStream(path);
         workbook = new XSSFWorkbook(fi);
         sheet = workbook.getSheet(sheetName);
@@ -124,6 +143,7 @@ public class ExcelUtility {
     }
 
     public void fillGreenColor(String sheetName, int rownum, int colnum) throws IOException {
+        // Keep this method exactly as it is - don't change it
         fi = new FileInputStream(path);
         workbook = new XSSFWorkbook(fi);
         sheet = workbook.getSheet(sheetName);

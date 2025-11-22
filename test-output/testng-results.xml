@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-22T11:27:49 IST" name="Suite" finished-at="2025-11-22T11:28:32 IST" duration-ms="42669">
+  <suite started-at="2025-11-22T20:02:48 IST" name="Suite" finished-at="2025-11-22T20:03:31 IST" duration-ms="43138">
     <groups>
     </groups>
-    <test started-at="2025-11-22T11:27:49 IST" name="Test" finished-at="2025-11-22T11:28:32 IST" duration-ms="42669">
+    <test started-at="2025-11-22T20:02:48 IST" name="Test" finished-at="2025-11-22T20:03:31 IST" duration-ms="43138">
       <class name="testCases.TC_Login_DDT_002001">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:27:50 IST" name="setup" finished-at="2025-11-22T11:27:52 IST" duration-ms="2544" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@41709512]" started-at="2025-11-22T20:02:48 IST" name="setup" finished-at="2025-11-22T20:02:50 IST" duration-ms="2795" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:27:53 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T11:28:04 IST" duration-ms="11193" status="PASS">
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@41709512]" started-at="2025-11-22T20:02:52 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T20:03:03 IST" duration-ms="11283" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -37,28 +37,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[inValid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_login_DDT -->
-        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:28:04 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T11:28:06 IST" duration-ms="1869" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[lakshmi@yahoo.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Laxmi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
+                <![CDATA[valid]]>
               </value>
             </param>
           </params>
@@ -70,7 +49,7 @@
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.fail(Assert.java:116)
-at testCases.TC_Login_DDT_002001.verify_login_DDT(TC_Login_DDT_002001.java:68)
+at testCases.TC_Login_DDT_002001.verify_login_DDT(TC_Login_DDT_002001.java:69)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,7 +84,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_DDT -->
-        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:28:06 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T11:28:08 IST" duration-ms="1572" status="PASS">
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@41709512]" started-at="2025-11-22T20:03:03 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T20:03:05 IST" duration-ms="2383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Laxmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_DDT -->
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@41709512]" started-at="2025-11-22T20:03:05 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T20:03:09 IST" duration-ms="3052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,7 +126,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_DDT -->
-        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:28:08 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T11:28:09 IST" duration-ms="1460" status="PASS">
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@41709512]" started-at="2025-11-22T20:03:09 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T20:03:12 IST" duration-ms="3129" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_DDT -->
-        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:28:09 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T11:28:11 IST" duration-ms="1512" status="PASS">
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@41709512]" started-at="2025-11-22T20:03:12 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T20:03:15 IST" duration-ms="3274" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -168,7 +168,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_DDT -->
-        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:28:11 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T11:28:21 IST" duration-ms="10530" status="PASS">
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@41709512]" started-at="2025-11-22T20:03:15 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T20:03:27 IST" duration-ms="12170" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -178,27 +178,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             <param index="1">
               <value>
                 <![CDATA[test@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_login_DDT -->
-        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:28:21 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T11:28:32 IST" duration-ms="10533" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[panda17@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pandapanda]]>
               </value>
             </param>
             <param index="2">
@@ -215,7 +194,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.fail(Assert.java:116)
-at testCases.TC_Login_DDT_002001.verify_login_DDT(TC_Login_DDT_002001.java:68)
+at testCases.TC_Login_DDT_002001.verify_login_DDT(TC_Login_DDT_002001.java:69)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -250,7 +229,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_DDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:28:32 IST" name="tearDown" finished-at="2025-11-22T11:28:32 IST" duration-ms="182" status="PASS">
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@41709512]" started-at="2025-11-22T20:03:27 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T20:03:30 IST" duration-ms="2993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[panda147@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pandapanda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_DDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_Login_DDT_002001@41709512]" started-at="2025-11-22T20:03:30 IST" name="tearDown" finished-at="2025-11-22T20:03:31 IST" duration-ms="635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

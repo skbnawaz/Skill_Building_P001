@@ -54,6 +54,7 @@ public class TC_Login_DDT_002001 extends BaseClass{
 	 * Data is invalid - login success - test fail*/
 	if(expectedresult.equalsIgnoreCase("Invalid")) {
 		logger.info("In Invalid block");
+		System.out.println("Target page status: "+targetpage);
 		if(targetpage==true) {
 			logger.error("Login test failed");
 			ma.clickLogout();
