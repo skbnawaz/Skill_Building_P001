@@ -1,0 +1,4 @@
+2025-11-19 13:20:36 INFO  TC_Login_002:15 - ********** Starting TC_Login_002 **********
+2025-11-19 13:20:37 INFO  TC_Login_002:21 - Navigated to Login page
+2025-11-19 13:20:37 INFO  TC_Login_002:27 - Provided login details and clicked on Login button
+2025-11-19 13:20:37 INFO  TC_Login_002:29 - Verifying Login test

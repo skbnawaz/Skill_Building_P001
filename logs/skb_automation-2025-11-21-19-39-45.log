@@ -1,0 +1,7 @@
+2025-11-21 19:39:50 INFO  TC_Login_002:15 - ********** Starting TC_Login_002 **********
+2025-11-21 19:39:51 INFO  TC_Login_002:21 - Navigated to Login page
+2025-11-21 19:39:51 INFO  TC_Login_002:27 - Provided login details and clicked on Login button
+2025-11-21 19:39:51 INFO  TC_Login_002:29 - Verifying Login test
+2025-11-21 19:40:01 INFO  TC_Login_002:32 - Verifying Login test
+2025-11-21 19:40:11 ERROR TC_Login_002:39 - Login test failed
+2025-11-21 19:40:12 DEBUG TC_Login_002:45 - Debug log...
