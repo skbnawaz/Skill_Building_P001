@@ -4,6 +4,12 @@
 
 
 <suite name="Suite" thread-count="5" parallel="tests">
+
+<listeners>
+<listener class-name="utilities.ExtentReportUtility"/>
+</listeners>
+
+
   <test  name="chromeBrowser">
   <parameter name="os" value="windows"/>
   <parameter name="browser" value="chrome"/>

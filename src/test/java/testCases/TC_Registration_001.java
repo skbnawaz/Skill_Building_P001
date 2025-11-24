@@ -11,7 +11,7 @@ import testBase.BaseClass;
 public class TC_Registration_001 extends BaseClass {
     // REMOVE THIS LINE: WebDriver driver;
 
-    @Test
+    @Test(groups={"Sanity","Master"})
     public void verify_account_registration() {
     	System.out.println("********** Starting TC_Registration_001 **********");
     	logger.info("********** Starting TC_Registration_001 **********");

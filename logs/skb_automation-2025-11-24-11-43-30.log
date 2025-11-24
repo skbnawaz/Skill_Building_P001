@@ -1,0 +1,10 @@
+2025-11-24 11:43:30 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Nawaz\eclipse-workspace\skill_building_P001\grouping.xml"
+2025-11-24 11:43:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Nawaz\eclipse-workspace\skill_building_P001\grouping.xml
+
+2025-11-24 11:43:34 INFO  TC_Login_002:15 - ********** Starting TC_Login_002 **********
+2025-11-24 11:43:34 INFO  TC_Login_002:21 - Navigated to Login page
+2025-11-24 11:43:35 INFO  TC_Login_002:27 - Provided login details and clicked on Login button
+2025-11-24 11:43:35 INFO  TC_Login_002:29 - Verifying Login test
+2025-11-24 11:43:45 ERROR TC_Login_002:36 - Login test failed
+2025-11-24 11:43:45 DEBUG TC_Login_002:42 - Debug log...

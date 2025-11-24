@@ -18,7 +18,7 @@ import testBase.BaseClass;
 
 public class TC_Login_DDT_002001 extends BaseClass{
 	
-	@Test(dataProvider="LoginData", dataProviderClass=utilities.DataProviders.class)
+	@Test(dataProvider="LoginData", dataProviderClass=utilities.DataProviders.class ,groups= ("DataDriven"))
 	public void verify_login_DDT(String email, String password, String expectedresult) {
 	
 		logger.info("********** Starting TC_Login_DDT_002001 **********");

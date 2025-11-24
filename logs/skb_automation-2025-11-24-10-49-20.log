@@ -1,0 +1,8 @@
+2025-11-24 10:49:20 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Nawaz\eclipse-workspace\skill_building_P001\grouping.xml"
+2025-11-24 10:49:20 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Nawaz\eclipse-workspace\skill_building_P001\grouping.xml
+
+2025-11-24 10:49:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-11-24 10:49:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-11-24 10:49:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-11-24 10:49:21 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings

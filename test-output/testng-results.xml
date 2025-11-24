@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< Updated upstream
   <suite started-at="2025-11-22T11:27:49 IST" name="Suite" finished-at="2025-11-22T11:28:32 IST" duration-ms="42669">
+=======
+  <suite started-at="2025-11-24T12:00:55 IST" name="Suite" finished-at="2025-11-24T12:01:45 IST" duration-ms="50441">
+>>>>>>> Stashed changes
     <groups>
+      <group name="Master">
+        <method signature="TC_Login_002.Login_verification_test()[pri:0, instance:testCases.TC_Login_002@24111ef1]" name="Login_verification_test" class="testCases.TC_Login_002"/>
+        <method signature="TC_Registration_001.verify_account_registration()[pri:0, instance:testCases.TC_Registration_001@2a62b5bc]" name="verify_account_registration" class="testCases.TC_Registration_001"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_Registration_001.verify_account_registration()[pri:0, instance:testCases.TC_Registration_001@2a62b5bc]" name="verify_account_registration" class="testCases.TC_Registration_001"/>
+      </group> <!-- Sanity -->
+      <group name="DataDriven">
+        <method signature="TC_Login_DDT_002001.verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@1f3f02ee]" name="verify_login_DDT" class="testCases.TC_Login_DDT_002001"/>
+      </group> <!-- DataDriven -->
+      <group name="Regression">
+        <method signature="TC_Login_002.Login_verification_test()[pri:0, instance:testCases.TC_Login_002@24111ef1]" name="Login_verification_test" class="testCases.TC_Login_002"/>
+      </group> <!-- Regression -->
     </groups>
+<<<<<<< Updated upstream
     <test started-at="2025-11-22T11:27:49 IST" name="Test" finished-at="2025-11-22T11:28:32 IST" duration-ms="42669">
       <class name="testCases.TC_Login_DDT_002001">
         <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:27:50 IST" name="setup" finished-at="2025-11-22T11:27:52 IST" duration-ms="2544" status="PASS">
+=======
+    <test started-at="2025-11-24T12:00:55 IST" name="Test" finished-at="2025-11-24T12:01:45 IST" duration-ms="50441">
+      <class name="testCases.TC_Registration_001">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Registration_001@2a62b5bc]" started-at="2025-11-24T12:00:55 IST" name="setup" finished-at="2025-11-24T12:00:57 IST" duration-ms="1993" status="PASS">
+>>>>>>> Stashed changes
           <params>
             <param index="0">
               <value>
@@ -23,7 +46,103 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
+<<<<<<< Updated upstream
         <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:27:53 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T11:28:04 IST" duration-ms="11193" status="PASS">
+=======
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC_Registration_001@2a62b5bc]" started-at="2025-11-24T12:00:57 IST" name="verify_account_registration" finished-at="2025-11-24T12:00:59 IST" duration-ms="1834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_Registration_001@2a62b5bc]" started-at="2025-11-24T12:00:59 IST" name="tearDown" finished-at="2025-11-24T12:00:59 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_Registration_001 -->
+      <class name="testCases.TC_Login_002">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_002@24111ef1]" started-at="2025-11-24T12:00:59 IST" name="setup" finished-at="2025-11-24T12:01:00 IST" duration-ms="1514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_verification_test()[pri:0, instance:testCases.TC_Login_002@24111ef1]" started-at="2025-11-24T12:01:00 IST" name="Login_verification_test" finished-at="2025-11-24T12:01:11 IST" duration-ms="10618" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC_Login_002.Login_verification_test(TC_Login_002.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_verification_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_Login_002@24111ef1]" started-at="2025-11-24T12:01:11 IST" name="tearDown" finished-at="2025-11-24T12:01:11 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_Login_002 -->
+      <class name="testCases.TC_Login_DDT_002001">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@1f3f02ee]" started-at="2025-11-24T12:01:11 IST" name="setup" finished-at="2025-11-24T12:01:13 IST" duration-ms="1384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@1f3f02ee]" started-at="2025-11-24T12:01:13 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-24T12:01:25 IST" duration-ms="11293" status="FAIL">
+>>>>>>> Stashed changes
           <params>
             <param index="0">
               <value>
@@ -105,7 +224,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_DDT -->
+<<<<<<< Updated upstream
         <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:28:06 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T11:28:08 IST" duration-ms="1572" status="PASS">
+=======
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@1f3f02ee]" started-at="2025-11-24T12:01:25 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-24T12:01:27 IST" duration-ms="1867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Laxmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_DDT -->
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@1f3f02ee]" started-at="2025-11-24T12:01:27 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-24T12:01:29 IST" duration-ms="2074" status="PASS">
+>>>>>>> Stashed changes
           <params>
             <param index="0">
               <value>
@@ -126,7 +270,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_DDT -->
+<<<<<<< Updated upstream
         <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:28:08 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T11:28:09 IST" duration-ms="1460" status="PASS">
+=======
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@1f3f02ee]" started-at="2025-11-24T12:01:29 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-24T12:01:30 IST" duration-ms="1559" status="PASS">
+>>>>>>> Stashed changes
           <params>
             <param index="0">
               <value>
@@ -147,7 +295,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_DDT -->
+<<<<<<< Updated upstream
         <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:28:09 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T11:28:11 IST" duration-ms="1512" status="PASS">
+=======
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@1f3f02ee]" started-at="2025-11-24T12:01:30 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-24T12:01:32 IST" duration-ms="1752" status="PASS">
+>>>>>>> Stashed changes
           <params>
             <param index="0">
               <value>
@@ -168,7 +320,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_DDT -->
+<<<<<<< Updated upstream
         <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:28:11 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-22T11:28:21 IST" duration-ms="10530" status="PASS">
+=======
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@1f3f02ee]" started-at="2025-11-24T12:01:32 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-24T12:01:43 IST" duration-ms="11085" status="FAIL">
+>>>>>>> Stashed changes
           <params>
             <param index="0">
               <value>
@@ -250,7 +406,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_DDT -->
+<<<<<<< Updated upstream
         <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_Login_DDT_002001@a87f8ec]" started-at="2025-11-22T11:28:32 IST" name="tearDown" finished-at="2025-11-22T11:28:32 IST" duration-ms="182" status="PASS">
+=======
+        <test-method signature="verify_login_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Login_DDT_002001@1f3f02ee]" started-at="2025-11-24T12:01:43 IST" name="verify_login_DDT" data-provider="LoginData" finished-at="2025-11-24T12:01:45 IST" duration-ms="1590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[panda147@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pandapanda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_DDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_Login_DDT_002001@1f3f02ee]" started-at="2025-11-24T12:01:45 IST" name="tearDown" finished-at="2025-11-24T12:01:45 IST" duration-ms="245" status="PASS">
+>>>>>>> Stashed changes
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
