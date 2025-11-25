@@ -30,7 +30,7 @@
 
     <Loggers>
 
-        <Root level="Debug">
+        <Root level="Info">
         <AppenderRef ref="File"/>
           <AppenderRef ref="Console"/>
         </Root>

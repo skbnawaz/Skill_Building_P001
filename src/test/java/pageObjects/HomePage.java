@@ -16,9 +16,7 @@ public class HomePage extends BasePage {
 //	2. Locators for HomePage elements
 	//a[normalize-space()='Register']
 	//
-	
-	@FindBy(xpath="//a[@title='My Account']")
-	WebElement myAccountLink;
+
 	
 	@FindBy(xpath="//a[normalize-space()='Register']")
 	WebElement registerLink;
@@ -26,9 +24,13 @@ public class HomePage extends BasePage {
 	@FindBy(linkText="Login")
 	WebElement LoginLink;
 	
-	//	3. Methods to interact with the elements on HomePage
+	
+	@FindBy(xpath="//a[@title='My Account']")
+	WebElement myAccountLink;
+	
 
 	public void clickOnMyAccount() {
+		
 		myAccountLink.click();
 	}
 	
